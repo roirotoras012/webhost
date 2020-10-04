@@ -1,0 +1,133 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.centerlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.leftside{
+	margin-top: 120px;
+}
+.below{
+	margin-bottom: 100px;
+}
+.rightside{
+	margin: 160px 30px 30px 30px;
+	padding: 35px 40px 30px 40px;
+	background-color:rgba(0, 0, 0, 0.5);;
+ 	border-radius: 0.5rem;
+}
+.easyfont{
+	font-family: Segoe Script;
+	color: #FCFCFC;
+}
+
+.easyfontside{
+	font-family: Orator Std;
+	color: #292929;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px;
+}
+a:hover {
+  color: white;
+}
+ .modifiedinput{
+ 	background-color: #0A0A0A;
+  	color: white;
+  	border:none;
+  	font-family: Segoe Script;
+ }
+input[type=text].modifiedinput:focus {
+	background-color: #0A0A0A;
+	font-family: Segoe Script;
+	color: white;
+}
+ .modifiedinput::-webkit-input-placeholder {
+  	font-family: Segoe Script;
+  	color: white;
+  }
+.modifiedbutton{
+	width:300px;height: 45px;
+	background: linear-gradient(276.93deg, #004B13 -50.1%, rgba(0, 182, 167, 0.364166) 62.03%, rgba(0, 191, 179, 0.3125) 71.14%, rgba(0, 243, 252, 0) 126.25%);
+	box-shadow: 10px 12px 10px rgba(153, 153, 153, 0.3);
+	border-radius: 40px;
+	border: none;
+	color: white;
+	font-size: 38px;
+	font-family: Segoe Script;
+	margin-bottom: 200px;
+}
+.easytournav{
+	background: linear-gradient(289.25deg, #146A58 11.13%, #59A956 41.84%, #156F71 73.13%, #1EA8B5 102.74%);
+}
+.navbar-brand{
+	padding-top: 10px;
+	font-family:Orator Std;
+}
+.easylead{
+	color: #292929;
+	font-size: 17px;
+	font-weight: normal;
+}
+.easyleads{
+	color: #696969;
+	font-size: 13px;
+	font-weight: bold;
+}
+.adminbutton{
+	background: #FFFFFF;
+	border: 2px solid #4D9E56;
+	box-sizing: border-box;
+	border-radius: 45px;
+	font-size: 12px;
+	padding:4px 25px 4px 25px;
+	color:#4D9E56;
+	font-weight: bold;
+}
+.adminbuttonedit{
+	background: #FFFFFF;
+	border: 2px solid #1EA8B5;
+	box-sizing: border-box;
+	border-radius: 45px;
+	font-size: 12px;
+	padding:4px 25px 4px 20px;
+	color:#1EA8B5;
+	font-weight: bold;
+}.adminbuttondelete{
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border: 2px solid #AB2C04;
+	border-radius: 45px;
+	font-size: 12px;
+	padding:4px 25px 4px 20px;
+	color:#AB2C04;
+	font-weight: bold;
+}
+.adminbutton:hover{
+	background-color: #59A956;
+}
+.adminbuttonedit:hover{
+	background-color: #1EA8B5;
+}
+.adminbuttondelete:hover{
+	background-color: #AB2C04;
+}
+tr,td{
+	font-size: 13px;
+}
+.table td, .table th{
+	border-top: none;
+}
+.nav-link{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+a.nav-link:hover{
+	color: #59A956;
+}
